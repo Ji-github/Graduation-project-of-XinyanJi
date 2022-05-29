@@ -1,0 +1,34 @@
+{
+  "name": "reach-server",
+  "version": "1.0.0",
+  "description": "node服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x npm run server",
+    "server": "node index"
+  },
+  "author": "jixinyan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.1",
+    "hotnode": "0.0.8",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.2.0",
+    "md5": "^2.2.1",
+    "mockjs": "^1.1.0",
+    "moment": "^2.24.0",
+    "mysql2": "^2.3.3",
+    "path-to-regexp": "^6.1.0",
+    "sequelize": "^5.22.5",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "nodemon": "^2.0.15"
+  }
+}
