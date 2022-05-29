@@ -1,2 +1,2 @@
-# Graduation-project-of-XinyanJi-
+# Graduation-project-of-XinyanJi
 吉新岩毕设
